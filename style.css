@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    align-items: center;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url(img/bg-pattern-top.svg), url(img/bg-pattern-bottom.svg);
+    background-position: -20vw -90vh, 50vw 50vh;
+    background-repeat: no-repeat;
+}
+main {
+    width: 500px;
+    background-color: rgb(254, 253, 253);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 400px;
+    padding: 20px 30px 20px 30px;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 27px;
+    text-align: center;
+    color: hsl(185, 75%, 39%)
+}
+ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: -5px;
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+    
+}
+ul li img{
+    cursor: pointer;
+}
+p{
+    font-size: 15px;
+}
